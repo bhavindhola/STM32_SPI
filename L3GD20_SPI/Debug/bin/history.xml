@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=L3GD20_SPI.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\L3GD20_SPI -TC:\CooCox\CoIDE\configuration\ProgramData\L3GD20_SPI/arm-gcc-link.ld -g">
+      <target file="L3GD20_SPI.elf" lastModified="16306489770">
+         <source file="..\obj\semihosting.o" lastModified="162fc75c1f7"/>
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="162fc75c34f"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="162fc75c444"/>
+         <source file="..\obj\main.o" lastModified="162fc8e6ffe"/>
+         <source file="..\obj\printf.o" lastModified="162fc93d69a"/>
+         <source file="..\obj\stm32f30x_spi.o" lastModified="162fc75c753"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="162fc75c83e"/>
+         <source file="..\obj\sh_cmd.o" lastModified="162fc75c85d"/>
+         <source file="..\obj\syscalls.o" lastModified="162fc75c947"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="162fc75ca17"/>
+      </target>
+   </processor>
+</history>

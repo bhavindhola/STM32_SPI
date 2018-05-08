@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\L3GD20_SPI\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\L3GD20_SPI\cmsis_lib -I..\..\..\workspace\L3GD20_SPI\semihosting -I..\..\..\workspace\L3GD20_SPI\cmsis_lib\include -I..\..\..\workspace\L3GD20_SPI\cmsis -I..\..\..\workspace\L3GD20_SPI">
+      <target file="syscalls.o" lastModified="162fc75c947">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="162fc740904"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="162fc75ca17">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="162fc7457fb"/>
+      </target>
+      <target file="stm32f30x_spi.o" lastModified="162fc75c753">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_spi.c" lastModified="162fc747edc"/>
+      </target>
+      <target file="printf.o" lastModified="162fc93d69a">
+         <source file="..\..\..\stdio\printf.c" lastModified="162fc925553"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="162fc75c34f">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="162fc7457f3"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="162fc75c444">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="162fc746bbe"/>
+      </target>
+      <target file="main.o" lastModified="162fc8e6ffe">
+         <source file="..\..\..\main.c" lastModified="162fc8e6437"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="162fc75c85d">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="162fc742387"/>
+      </target>
+      <target file="semihosting.o" lastModified="162fc75c1f7">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="162fc742385"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="162fc75c83e">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="162fc745800"/>
+      </target>
+   </processor>
+</history>
